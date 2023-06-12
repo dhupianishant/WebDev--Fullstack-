@@ -1,0 +1,12 @@
+Inline CSS has the highest priority.
+
+
+CSS Colors
+rgba - red green blue alpha(opacity/tranparency)
+
+
+Font Sizings
+1em = 16px
+rem = used mostly, relative em, used for responsive webpages, handles then amutomatically
+
+margin top right bottom left
