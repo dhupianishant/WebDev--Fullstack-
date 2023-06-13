@@ -20,6 +20,11 @@ body {
     margin-right: 0px;
 }
 
+a {
+    text-decoration: none;
+    color: var(--primaryColor);
+}
+
 .navigation {
     background-color: var(--whiteColor);
     height: var(--navbarHeight);
@@ -51,4 +56,5 @@ body {
 
 .menuItem {
     margin-left: 20px;
+    
 }
