@@ -9,4 +9,13 @@ Font Sizings
 1em = 16px
 rem = used mostly, relative em, used for responsive webpages, handles then amutomatically
 
+PNGs
+pngegg.com
+
+Colors
+colorhunt.co
+
+Fonts
+fonts.google.com
+
 margin top right bottom left
