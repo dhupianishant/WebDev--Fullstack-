@@ -36,7 +36,7 @@ a {
 .logo {
     display: flex;
     padding-left: 20px;
-    width: 7rem;
+    width: 12rem;
     align-items: center;
 }
 
@@ -56,5 +56,4 @@ a {
 
 .menuItem {
     margin-left: 20px;
-    
 }
