@@ -7,7 +7,8 @@
     --whiteColor: white;
     --blackColor: #222222;
     --primaryFont: 'Open Sans', sans-serif;
-    --navbarHeight: 3rem;  
+    --navbarHeight: 3rem;
+    --cursiveFont: 'Pacifico', cursive;
 }
 
 /* Main CSS */
@@ -25,12 +26,17 @@ a {
     color: var(--primaryColor);
 }
 
+a:hover {
+    color: var(--primaryAccentColor);
+}
+
 .navigation {
     background-color: var(--whiteColor);
     height: var(--navbarHeight);
     display: flex;
     justify-content: space-around;
     align-items: center;
+    filter: drop-shadow(0px 3px 4px grey);
 }
 
 .logo {
@@ -48,6 +54,7 @@ a {
 .contactImage {
     padding: 8px;
     height: 2rem;
+    margin-right: 20px;
 }
 
 .menuItems {
@@ -56,4 +63,59 @@ a {
 
 .menuItem {
     margin-left: 20px;
+}
+
+
+/* Banner CSS */
+.banner{
+    display: flex;
+    height: 450px;
+    background: linear-gradient(45deg, var(--secondaryColor) ,var(--primaryAccentColor));
+    filter: drop-shadow(0px 3px 4px grey);  /* x y radius color */
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.bannerLeft {
+    width: 50%;
+}
+
+.bannerImage {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+}
+
+.greeting {
+    font-family: var(--cursiveFont);
+    font-size: 2.5rem;
+}
+
+.title {
+    font-size: 3.5rem;
+    color: white;
+}
+
+.titleSpan {
+    display: inline-block;
+    background-color: var(--primaryColor);
+    padding: 0.5rem;
+    margin: 5px 0px;
+}
+
+.description {
+    margin: 15px 0px;
+    line-height: 2rem;
+}
+
+.showCVButton {
+    background: linear-gradient(white, rgb(235, 235, 235), rgb(245, 245, 245));
+    padding: 10px 15px;
+    border-radius: 5px;
+    filter: drop-shadow(5px 5px 3px grey);
+}
+
+.showCVButton:hover {
+    background-color: rgb(215, 215, 215);
 }
