@@ -64,7 +64,10 @@ a:hover {
 .contactImage {
     align-items: center;
     padding-right: 3rem;
+}
 
+.contactImage:hover {
+    background-color: var(--whiteColor);
 }
 
 .menuItems {
@@ -73,6 +76,10 @@ a:hover {
 
 .menuItem {
     margin-left: 20px;
+}
+
+.callMeText {
+    padding: 5px;
 }
 
 
