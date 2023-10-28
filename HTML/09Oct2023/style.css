@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+}
+
+li {
+    display: inline;
+    margin: 15px;
+}
+
+nav {
+    background-color: rgb(205, 182, 226);
+    height: 50px;
+    padding-top: 14px;
+    color: rgb(156, 28, 28);
+    text-align: right;
+}
+
+h1 {
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+}
+
+button:hover {
+    background-color: brown;
+}

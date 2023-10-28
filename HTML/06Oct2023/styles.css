@@ -1,0 +1,13 @@
+.navbarElementss {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbarElement {
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbarElement:hover {
+    color: brown;
+}
